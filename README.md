@@ -32,5 +32,6 @@ AILT9019 AI Literacy II · sandbox for tutorials and exercises.
 - Final course project will live in a separate team repository (assigned after W3, 16 Sep).
 
 ## Workflow
-- Save early, save often. After every meaningful change: `git add . && git commit -m "..." && git push`.
-- One sentence per commit about *what now works*, not just what changed.
+- Save early, save often. After every meaningful change: run `./save.sh "short message about what now works"` from the repo folder.
+- The script stages, commits, and pushes in one go. One sentence per commit, focused on *what now works*.
+- First-time only: if `bash` complains about permissions, run `chmod +x save.sh` once in Git Bash.
