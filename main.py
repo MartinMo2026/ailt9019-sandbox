@@ -19,6 +19,9 @@ def main():
             break
         try:
             score = float(entry)
+            if score < 0:
+                print(f"  {score} is negative — scores must be 0 or above. Try again.")
+                continue
             scores.append(score)
         except ValueError:
             print(f"  '{entry}' is not a number — try again.")
