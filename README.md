@@ -25,6 +25,8 @@ AILT9019 AI Literacy II · sandbox for tutorials and exercises.
 ## Progress
 - W0 Worked Examples 1–4 — done (hello, read error, function, env var).
 - W1 Tutorial 1 Exercise 1 — done: added emoji prefix to letter grades (`🌟 A`, `👍 B`, `📚 C`, `📝 D`, `💪 F`).
+- W1 Tutorial 1 Exercise 2 — done: reject negative scores with `if score < 0` + `continue` re-prompt in `main.py`.
+- W1 Tutorial 1 Exercise 3 — done: in plain Chinese, summarised the Exercise 2 change ("avoid negative scores skewing results; previously accepted, now requires re-entering").
 
 ## Goal of this repo
 - Practice the vibe-coding loop: describe → inspect → run → test → revise.
